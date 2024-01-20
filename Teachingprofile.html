@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <title>Responsive Registration Form</title>
+
+    </head>
+    <body>
+        <div class="container">
+            <header>Teaching Staff</header>
+            <form action="#">
+                <div class="form first">
+                    <div class="details">
+                        <span class="title">Personal Details</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>First Name</label>
+                                <input type="text" placeholder="Enter your First name"  required>
+                            </div>
+                            <div class="input-field">
+                                <label>Last Name</label>
+                                <input type="text" placeholder="Enter your Last name"  required>
+                            </div>
+                        
+                            <div class="input-field">
+                                <label>Date of Birth</label>
+                                <input type="date" placeholder="Enter your birth date" required>
+                            </div>
+                            <div class="input-field">
+                                <label>Email</label>
+                                <input type="text" placeholder="Enter your email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Alternative Email</label>
+                                <input type="text" placeholder="Enter your Alternative email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Mobile Number</label>
+                                <input type="integer" placeholder="Enter your Mobile Number" pattern="[0-9]+" required>
+                
+                            </div>
+                        
+                            <div class="input-field">
+                                <label>Alternative Number</label>
+                                <input type="integer" placeholder="Enter your Alternative Number" pattern="[0-9]+" required>
+                            </div>
+                            <div class="input-field">
+                                <label>Gender</label>
+                                <select name="gender" class="form-control" required>
+                                    <option value="None">Select Gender</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+
+                    
+                            <div class="input-field">
+                                <label>Aadhar Number</label>
+                                <input type="number" placeholder="Enter your Aadhar Number" pattern="[0-9]+" required>   
+                            </div>
+
+                            <div class="input-field">
+                                <label>Pan Number</label>
+                                <input type="number" placeholder="Enter your Aadhar Number" pattern="[0-9]+" required>
+                            </div>   
+                        
+                            <div class="input-field">
+                                <label>Marital Status</label>
+                                <select name="marital Status" class="form-control" required>
+                                    <option value="None">Select Your Marital Status</option>
+                                    <option value="Single">Single</option>
+                                    <option value="Married">Married</option>
+                                    <option value="Separated">Separated</option>
+                                    </select>
+                            </div>
+                            <div class="input-field">
+                                <label>Blood Group</label>
+                                <select name="gender" class="form-control" required>
+                                    <option value="None">Select your Blood Group</option>
+                                    <option value="A+">A+</option>
+                                    <option value="B+">B+</option>
+                                    <option value="O+">O+</option>
+                                    <option value="A-">A-</option>
+                                    <option value="B-">B-</option>
+                                    <option value="AB">AB</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                        <div class="details ID">
+                            <span class="title">Job Details</span>
+    
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>ID Number</label>
+                                    <input type="text" placeholder="Enter your ID Number" pattern="[0-9]+" required>
+                                </div>
+                            
+                                <div class="input-field">
+                                    <label>Joining Date</label>
+                                    <input type="date" placeholder="Enter Joining Date" required>
+                                </div>
+                                <div class="input-field">
+                                    <label>Work Location</label>
+                                    <input type="text" placeholder="Enter Your Work Location" required>
+                                </div>
+
+                                <div class="input-field">
+                                    <label>Designation</label>
+                                    <select name="State" class="form-control" required>
+                                        <option value="None">Select Your Designation</option>
+                                        <option value="None">Principal</option>
+                                        <option value="None">Professor</option>
+                                        <option value="None">Asst. Professor</option>
+                                        <option value="None">HOD</option>
+                                        <option value="None">Lecturer</option>
+                                        <option value="None">Registrar</option>
+                                        <option value="None">Technical Assistant</option>
+                                        <option value="None">Asso. Professor</option>
+                                    </select>
+                                </div>
+
+                                <div class="input-field">
+                                    <label>Total Work Experience</label>
+                                    <input type="number" placeholder="Enter your Total Work Experience" pattern="[0-9]+" required>
+                                </div>
+                                
+                                
+                                <div class="input-field">
+                                    <label>Department</label>
+                                    <select name="department" class="form-control" required>
+                                        <option value="None">Select Your Department</option>
+                                        <option value="None">MCA</option>
+                                        <option value="None">ECE</option>
+                                        <option value="None">ME</option>
+                                        <option value="None">EE</option>
+                                        <option value="None">IT</option>
+                                        <option value="None">CE</option>
+                                        <option value="None">CSE</option>
+                                        <option value="None">BCA</option>
+                                        <option value="None">MBA</option>
+                                        <option value="None">BBA</option>
+                                    </select>
+                                </div>
+                                 
+                            
+                            
+                            </div>
+                           </div>
+                
+
+                
+                    <div class="details address">
+                        <span class="title">Present Address</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>House no./Block no.</label>
+                                <input type="text" placeholder="Enter your House no./Block no." required>
+                            </div>
+                        
+                            <div class="input-field">
+                                <label>Street Name</label>
+                                <input type="text" placeholder="Enter your Street Name" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>City</label>
+                                <input type="text" placeholder="Enter your City" required>
+                
+                            </div>
+
+                            <div class="input-field">
+                                <label>District</label>
+                                <input type="text" placeholder="Enter your District" required>
+                
+                            </div>
+                            <div class="input-field">
+                                <label>State</label>
+                                <select name="State" class="form-control" required>
+                                    <option value="None">Select Issued State</option>
+                                    <option value="None">Delhi</option>
+                                    <option value="None">Maharashtra</option>
+                                    <option value="None">West Bengal</option>
+                                    <option value="None">Assam</option>
+                                    <option value="None">Bihar</option>
+                                    <option value="None">Odisha</option>
+                                    <option value="None">Punjab</option>
+                                    <option value="None">Uttarkhand</option>
+                                </select>
+                            </div>
+
+                            
+                            <div class="input-field">
+                                <label>Postal Code/Zip Code</label>
+                                <input type="number" placeholder="Enter your Postal Code" pattern="[0-9]+" required>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="details address">
+                        <span class="title">Permanent Address</span>
+
+                    <div class="fields">
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>House no./Block no.</label>
+                                <input type="text" placeholder="Enter your House no./Block no." required>
+                            </div>
+                        
+                            <div class="input-field">
+                                <label>Street Name</label>
+                                <input type="text" placeholder="Enter your Street Name" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>City</label>
+                                <input type="text" placeholder="Enter your City" required>
+                
+                            </div>
+
+                            <div class="input-field">
+                                <label>District</label>
+                                <input type="text" placeholder="Enter your District" required>
+                
+                            </div>
+                            <div class="input-field">
+                                <label>State</label>
+                                <select name="State" class="form-control" required>
+                                    <option value="None">Select Issued State</option>
+                                    <option value="None">Delhi</option>
+                                    <option value="None">Maharashtra</option>
+                                    <option value="None">West Bengal</option>
+                                    <option value="None">Assam</option>
+                                    <option value="None">Bihar</option>
+                                    <option value="None">Odisha</option>
+                                    <option value="None">Punjab</option>
+                                    <option value="None">Uttarkhand</option>
+                                </select>
+                            </div>
+
+                            
+                            <div class="input-field">
+                                <label>Postal Code/Zip Code</label>
+                                <input type="number" placeholder="Enter your Postal Code" pattern="[0-9]+" required>
+                               
+                            </div>  
+                    </div>
+                </div>
+
+
+                    
+                        <div class="details education">
+                            <span class="title">Educational Details</span>
+    
+                            <div class="fields">
+                                
+                               
+                                <div class="input-field1">
+                                    <label>Name of Examination(10th Standard)</label>
+                                    <input type="text" placeholder="Enter Name of Examination" required>
+                                </div>
+                                <div class="input-field1">
+                                    <label>Board(10th Standard)</label>
+                                    <input type="text" placeholder="Enter Board Name" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>Marks Obtained % (10th Standard)</label>
+                                    <input type="number" placeholder="Enter Your Marks" id="float-input" name="float-input" 
+                                    pattern="[0-9]*[.,]?[0-9]*" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>Year of Passing(10th Standard)</label>
+                                    <input type="date" placeholder="Enter Year" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>Name of Examination(12th Standard)</label>
+                                    <input type="text" placeholder="Enter Name of Examination" required>
+                                </div>
+                                <div class="input-field1">
+                                    <label>Board(12th Standard)</label>
+                                    <input type="text" placeholder="Enter Board Name" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>Marks Obtained % (12th Standard)</label>
+                                    <input type="number" placeholder="Enter Your Marks" id="float-input" name="float-input" 
+                                    pattern="[0-9]*[.,]?[0-9]*" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>Year of Passing(12th Standard)</label>
+                                    <input type="date" placeholder="Enter Year" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>Degree(Graduation) </label>
+                                    <input type="text" placeholder="Enter Degree" required>
+                                </div>
+                                <div class="input-field1">
+                                    <label>University(Graduation) </label>
+                                    <input type="text" placeholder="Enter University Name" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>Marks Obtained % (Graduation)</label>
+                                    <input type="number" placeholder="Enter Your Marks" id="float-input" name="float-input" 
+                                    pattern="[0-9]*[.,]?[0-9]*" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>Year of Passing(Graduation) </label>
+                                    <input type="date" placeholder="Enter Year" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>Degree (Post Graduation) </label>
+                                    <input type="text" placeholder="Enter Degree" required>
+                                </div>
+                                <div class="input-field1">
+                                    <label>University(Post Graduation) </label>
+                                    <input type="text" placeholder="Enter University Name" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>Marks Obtained % (Post Graduation) </label>
+                                    <input type="number" placeholder="Enter Your Marks" id="float-input" name="float-input" 
+                                    pattern="[0-9]*[.,]?[0-9]*" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>Year of Passing(Post Graduation) </label>
+                                    <input type="date" placeholder="Enter Year" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>University(Doctorate)</label>
+                                    <input type="text" placeholder="Enter University Name" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label> Stream(Doctorate)</label>
+                                    <input type="text" placeholder="Enter Your Stream"  required>
+                                </div>
+                                <div class="input-field1">
+                                    <label>Date of Registration(Doctorate)</label>
+                                    <input type="date" placeholder="Enter Year" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>Year of Passing(Doctorate)</label>
+                                    <input type="date" placeholder="Enter Year" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>University(Post Doctorate) </label>
+                                    <input type="text" placeholder="Enter University Name" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>Stream(Post Doctorate)</label>
+                                    <input type="number" placeholder="Enter Your Stream"  required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>Start Date(Post Doctorate) </label>
+                                    <input type="date" placeholder="Enter Year" required>
+                                </div>
+
+                                <div class="input-field1">
+                                    <label>End Date(Post Doctorate)</label>
+                                    <input type="date" placeholder="Enter Year" required>
+                                </div>
+
+
+                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="buttons">
+                        <div class="submitBtn">
+                            <button type="submit" value="Submit">SUBMIT</button>
+                        </div>
+
+                        <br>
+                            <div class="resetBtn">
+                            <button type="reset" value="Reset">RESET</button>
+                            </div>
+                        
+                      </div>
+
+                            
+                                            
+                                    
+            </div>
+        </form>
+    </div>
+
+    <div class="logout-container">
+        <button class="logout-button">Logout</button>
+    </div>
+
+    </body>
+</html>
